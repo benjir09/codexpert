@@ -1,0 +1,35 @@
+.survey-container .each-question {
+    border: 1px solid #d1d1d1;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 6px;
+    background: #f9f9f9;
+}
+.survey-container .each-question h4 {
+    margin-top: 0;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.survey-container .each-question label {
+    font-size: 18px;
+}
+.survey-container .each-question select {
+    padding: 8px 10px;
+}
+
+.survey-container input.save-data {
+    background-color: #4353ff;
+    box-shadow: 0px 4px 0px 0px #8f99ff;
+    transition: 0.3s all ease;
+    color: #fff;
+    border: unset;
+    padding: 12px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+.survey-container input.save-data:hover, .survey-container input.save-data:focus{
+    background-color: #2f3ff0;
+    box-shadow: 0px 4px 0px 0px #606cf5;
+}

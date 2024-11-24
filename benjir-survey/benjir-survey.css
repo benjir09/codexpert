@@ -1,0 +1,65 @@
+.select2-container {
+  width: 80% !important;
+}
+input.save-data {
+  margin-top: 15px;
+  width: 100% !important;
+  padding: 8px;
+  background: #2271b1;
+  border: unset;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.dt-length select {
+  padding: 5px 15px !important;
+}
+.twocol{
+  display: flex;
+  align-items: center;
+}
+.twocol .eachinput{
+  flex-basis: 50%;
+}
+.twocol .eachinput label {
+  display: block;
+  margin-bottom: 3px;
+}
+.crypto-form .eachinput input {
+  width: 100%;
+}
+.crypto-form .eachinput .select2-container{
+  width: 100% !important;
+}
+.crypto-form .eachinput {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+.crypto-form .eachinput .cryptowidth, .crypto-form .eachinput .cryptoheight {
+  width: calc(100% - 20px);
+}
+.crypto-form .eachinput input[type='color']{
+  cursor: pointer;
+}
+#responsemessage {
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+}
+.questions-table span.dashicons, .survey-table span.dashicons {
+  cursor: pointer;
+  margin: 3px;
+  transition: all 0.2s;
+}
+.questions-table span.dashicons:hover, .questions-table span.dashicons:focus, .survey-table span.dashicons:hover, .survey-table span.dashicons:focus{
+  scale: 1.3;
+}
+
+.survey-and-question{display: flex;margin-top: 30px;column-gap: 30px;}
+.survey-portion{flex-basis: 50%;}
+.question-portion{flex-basis: 50%;}
+.each-questionadmin input{width: 100%;display: block;}
+.select2-container{width: 100% !important;}
+.dashicons.dashicons-trash {color:red !important;}
+.each-questionadmin input[type="checkbox"] {display: inline-block;width: auto;}
+.each-questionadmin input[type="radio"] {display: inline-block;width: auto;}
